@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<librec-auto>
+	<random-seed>202001</random-seed>
+	<thread-count>1</thread-count>
+	<!-- PATH SECTION -->
+	<path>
+		<data>example01/data</data>
+		<result>result</result>
+		<log>log</log>
+	</path>
+	<!-- DATA SECTION -->
+	<data>
+		<format>UIR</format>
+		<train-file format="text">synthetic-ratings-microloan-1k.csv</train-file>
+		<!--<test-file></test-file>-->
+	</data>
+	<!-- FEATURES SECTION -->
+	<features>
+		<appender-class>user-item</appender-class>
+		<item-feature-file>example01/data/item-features.csv</item-feature-file>
+		<user-feature-file>example01/dat/user-features.csv</user-feature-file>
+	</features>
+	
+	<!-- SPLITTER SECTION -->
+	<splitter>
+		<model count="5">kcv</model>
+		<dim>userfixed</dim>
+		<ratio>0.8</ratio>
+		<save>true</save>
+	</splitter>
+	
+	<!-- ALGORITHM SECTION -->
+	<alg>
+		<class>itemknn</class>
+		<similarity type="item">
+			<!--<value>cos</value> -->
+			<value>pcc</value>
+		</similarity>
+		<neighborhood-size>
+			<!-- <value>20</value> -->
+			<value>30</value>
+		</neighborhood-size>
+		<shrinkage>50</shrinkage>
+	</alg>
+
+	<!-- METRICS SECTION -->
+	<metric>
+		<class>ndcg</class>
+	</metric>
+	
+	<!-- RERANK SECTION -->
+	<rerank action="no-parse">
+		<script lang="python3" src="system">
+			<script-name>no-op-rerank.py</script-name>
+			<param name="max_len">5</param>
+			<param name="another_param">0.4</param>
+		</script>
+	</rerank> 
+	
+	<!-- POST-PROCESSING SECTION 
+	<post action='no-parse'>
+		<script lang="python3" src="system">
+			<script-name>bar-compare.py</script-name>
+		</script>
+	</post> -->
+</librec-auto>
