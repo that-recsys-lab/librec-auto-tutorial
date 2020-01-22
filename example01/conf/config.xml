@@ -1,26 +1,23 @@
 <?xml version="1.0"?>
+<!-- Configuration file for FAT* tutorial 
+	 Example 01: Getting started with librec-auto -->
 
 <librec-auto>
 	<random-seed>202001</random-seed>
-	<thread-count>3</thread-count>
+	<thread-count>1</thread-count>
+	
 	<!-- PATH SECTION -->
 	<path>
 		<data>example01/data</data>
 		<result>result</result>
 		<log>log</log>
 	</path>
+	
 	<!-- DATA SECTION -->
 	<data>
 		<format>UIRT</format>
-		<data-file format="text">ratings_small.csv</data-file>
-		<!--<test-file></test-file>-->
+		<data-file format="text">ratings-movie-sample-1k.csv</data-file>
 	</data>
-	<!-- FEATURES SECTION -->
-	<features>
-		<appender-class>net.librec.data.convertor.appender.ItemFeatureAppender</appender-class>
-		<item-feature-file>item-features.csv</item-feature-file>
-		<user-feature-file>user-features.csv</user-feature-file>
-	</features>
 	
 	<!-- SPLITTER SECTION -->
 	<splitter>
@@ -31,6 +28,7 @@
 	</splitter>
 	
 	<!-- ALGORITHM SECTION -->
+	<!-- Using biased matrix factorization for demonstration purposes. -->
 	<alg>
 		<class>biasedmf</class>
 		<learn-rate>0.01</learn-rate>
@@ -46,33 +44,13 @@
 			<value>20</value>
 		</num-factors>
 	</alg> 
-	<!--
-	<alg>
-		<class>userknn</class>
-		<similarity type="user">pcc</similarity>
-		<neighborhood-size>
-			<value>10</value>
-			<value>50</value>
-		</neighborhood-size>
-		<shrinkage>10</shrinkage>
-	</alg> -->
 
 	<!-- METRICS SECTION -->
 	<metric>
 		<ranking>true</ranking>
 		<list-size>10</list-size>
-		<class>precision,recall,net.librec.eval.ranking.StatisticalParityEvaluator</class>
-		<protected-feature>old</protected-feature>
+		<class>precision,recall</class>
 	</metric>
-	
-	<!-- RERANK SECTION 
-	<rerank action="no-parse">
-		<script lang="python3" src="system">
-			<script-name>no-op-rerank.py</script-name>
-			<param name="max_len">5</param>
-			<param name="another_param">0.4</param>
-		</script>
-	</rerank> -->
 	
 	<!-- POST-PROCESSING SECTION -->
 	<post action='no-parse'>

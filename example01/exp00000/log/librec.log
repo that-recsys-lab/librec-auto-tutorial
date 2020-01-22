@@ -1,788 +1,152 @@
-20/01/20 20:57:48 INFO TextDataConvertor: Dataset: example01/data/ratings_small.csv
-20/01/20 20:57:48 INFO TextDataConvertor: All dataset files [example01/data/ratings_small.csv]
-20/01/20 20:57:48 INFO TextDataConvertor: All dataset files size 2438233
-20/01/20 20:57:48 INFO TextDataConvertor: Now loading dataset file ratings_small
-20/01/20 20:57:49 INFO TextDataModel: Transform data to Convertor successfully!
-20/01/20 20:57:49 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/20 20:57:49 INFO TextDataModel: Data size of training is 80003
-20/01/20 20:57:49 INFO TextDataModel: Data size of testing is 20001
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item33
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item51
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item56
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item67
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item75
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item90
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item106
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item109
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item115
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item120
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item127
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item128
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item133
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item134
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item136
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item138
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item139
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item142
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item143
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item182
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item192
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item197
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item210
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item212
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item226
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item284
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item286
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item297
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item298
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item310
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item311
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item359
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item385
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item386
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item394
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item395
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item396
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item397
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item398
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item399
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item400
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item402
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item403
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item404
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item406
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item411
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item430
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item462
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item478
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item503
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item525
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item530
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item545
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item557
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item560
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item566
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item570
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item572
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item576
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item578
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item579
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item583
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item584
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item591
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item598
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item601
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item602
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item604
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item607
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item618
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item623
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item624
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item625
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item629
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item634
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item636
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item641
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item642
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item643
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item644
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item645
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item649
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item652
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item654
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item655
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item657
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item658
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item660
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item666
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item669
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item672
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item675
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item676
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item682
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item683
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item684
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item693
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item699
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item701
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item706
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item712
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item713
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item716
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item717
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item723
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item727
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item729
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item730
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item732
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item734
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item738
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item739
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item744
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item749
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item751
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item752
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item758
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item763
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item768
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item770
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item771
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item772
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item773
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item774
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item776
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item777
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item789
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item790
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item791
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item792
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item794
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item795
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item796
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item797
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item807
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item811
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item812
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item814
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item815
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item819
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item821
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item822
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item823
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item825
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item826
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item827
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item843
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item847
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item853
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item855
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item856
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item857
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item859
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item860
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item862
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item863
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item868
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item871
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item873
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item874
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item877
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item878
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item884
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item887
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item890
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item894
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item895
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item925
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item958
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item959
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item967
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item974
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item975
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item977
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item978
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item979
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item983
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item985
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item989
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item993
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1000
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1001
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1002
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1038
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1039
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1045
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1052
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1058
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1062
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1065
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1070
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1071
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1075
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1098
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1102
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1106
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1107
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1108
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1109
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1110
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1115
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1116
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1117
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1118
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1119
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1121
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1122
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1134
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1138
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1139
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1140
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1141
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1142
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1143
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1144
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1146
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1149
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1155
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1156
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1157
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1158
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1159
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1160
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1166
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1170
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1205
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1294
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1308
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1309
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1313
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1314
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1315
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1316
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1318
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1319
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1360
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1362
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1364
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1368
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1383
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1386
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1400
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1412
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1421
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1424
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1426
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1434
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1436
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1439
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1443
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1448
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1462
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1467
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1470
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1471
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1477
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1486
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1494
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1496
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1509
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1510
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1511
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1514
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1519
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1520
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1522
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1524
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1528
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1533
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1534
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1538
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1547
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1548
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1551
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1553
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1557
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1558
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1559
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1561
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1565
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1567
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1568
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1574
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1577
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1578
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1579
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1585
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1622
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1628
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1630
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1650
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1651
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1656
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1659
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1662
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1664
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1666
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1675
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1677
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1679
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1685
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1695
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1697
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1698
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1705
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1706
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1708
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1709
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1710
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1714
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1716
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1718
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1720
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1723
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1724
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1725
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1738
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1740
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1741
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1742
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1743
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1749
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1758
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1764
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1765
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1768
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1770
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1773
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1774
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1776
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1780
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1781
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1782
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1787
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1789
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1793
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1811
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1814
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1815
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1817
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1820
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1825
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1829
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1830
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1832
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1842
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1843
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1847
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1849
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1850
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1851
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1853
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1857
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1867
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1868
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1869
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1871
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1872
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1877
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1879
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1890
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1893
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1898
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1899
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1905
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1906
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1908
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1915
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item1930
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2030
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2061
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2127
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2129
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2156
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2157
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2158
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2172
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2175
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2179
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2185
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2192
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2196
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2198
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2199
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2209
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2211
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2213
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2216
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2217
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2218
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2220
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2222
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2223
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2224
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2225
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2226
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2228
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2229
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2230
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2233
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2234
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2235
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2242
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2251
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2258
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2270
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2274
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2277
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2281
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2293
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2298
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2299
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2308
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2309
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2317
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2319
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2326
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2332
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2341
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2343
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2358
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2426
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2444
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2452
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2466
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2477
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2480
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2484
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2489
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2503
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2508
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2509
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2510
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2512
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2538
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2543
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2544
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2547
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2556
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2564
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2576
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2578
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2584
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2588
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2591
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2592
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2593
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2595
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2601
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2602
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2603
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2604
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2608
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2614
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2619
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2623
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2632
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2645
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2646
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2658
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2663
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2665
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2666
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2667
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2675
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2679
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2680
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2684
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2685
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2695
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2698
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2703
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2705
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2711
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2737
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2740
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2742
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2743
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2744
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2756
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2760
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2765
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2768
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2773
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2777
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2778
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2785
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2811
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2813
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2814
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2818
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2821
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2823
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2825
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2830
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2831
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2833
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2834
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2838
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2842
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2854
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2865
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2873
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2895
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2896
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2909
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2910
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2911
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2914
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2931
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2933
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2934
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2954
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2955
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2957
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2958
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2960
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2963
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2965
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2980
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2994
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item2999
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3009
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3012
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3014
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3023
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3026
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3027
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3049
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3050
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3056
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3058
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3059
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3065
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3073
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3080
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3084
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3085
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3092
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3119
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3123
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3124
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3126
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3131
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3132
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3137
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3139
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3149
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3151
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3154
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3162
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3164
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3170
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3172
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3184
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3187
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3191
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3193
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3195
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3209
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3212
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3215
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3220
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3222
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3226
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3227
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3228
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3229
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3230
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3231
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3233
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3234
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3236
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3237
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3242
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3277
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3278
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3279
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3280
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3283
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3288
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3290
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3291
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3293
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3295
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3297
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3305
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3311
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3312
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3315
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3319
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3321
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3322
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3323
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3332
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3333
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3335
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3336
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3337
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3345
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3346
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3348
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3352
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3353
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3356
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3366
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3367
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3369
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3372
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3373
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3374
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3375
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3376
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3378
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3381
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3382
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3383
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3389
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3403
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3407
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3410
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3411
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3413
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3416
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3419
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3433
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3443
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3455
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3458
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3464
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3472
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3473
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3482
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3485
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3486
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3488
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3493
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3514
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3517
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3523
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3530
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3532
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3533
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3541
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3542
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3558
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3561
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3562
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3570
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3582
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3583
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3585
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3586
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3589
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3592
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3595
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3597
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3601
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3603
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3607
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3610
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3625
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3630
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3631
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3636
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3641
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3642
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3644
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3645
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3647
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3648
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3650
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3651
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3652
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3666
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3667
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3670
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3711
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3722
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3748
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3749
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3750
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3756
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3762
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3767
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3772
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3776
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3778
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3779
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3781
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3782
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3796
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3797
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3803
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3808
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3817
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3818
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3828
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3830
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3842
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3850
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3853
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3856
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3862
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3866
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3867
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3874
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3876
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3878
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3881
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3884
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3887
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3888
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3894
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3898
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3899
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3904
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3907
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3912
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3931
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3935
-20/01/20 20:57:49 INFO ItemFeatureAppender: In ItemFeatureAppender, no such item3944
-20/01/20 20:57:49 INFO TextDataModel: Feature appender loaded successfully!
-20/01/20 20:57:49 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
-20/01/20 20:57:49 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
-20/01/20 20:57:49 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/20 20:57:49 INFO TextDataModel: Data size of training is 80003
-20/01/20 20:57:49 INFO TextDataModel: Data size of testing is 20001
-20/01/20 20:57:49 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/20 20:57:49 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
-20/01/20 20:57:49 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/20 20:57:49 INFO TextDataModel: Data size of training is 80003
-20/01/20 20:57:49 INFO TextDataModel: Data size of testing is 20001
-20/01/20 20:57:49 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/20 20:57:49 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
-20/01/20 20:57:49 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/20 20:57:49 INFO TextDataModel: Data size of training is 80003
-20/01/20 20:57:49 INFO TextDataModel: Data size of testing is 20001
-20/01/20 20:57:49 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/20 20:57:49 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 4.
-20/01/20 20:57:49 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/20 20:57:49 INFO TextDataModel: Data size of training is 80003
-20/01/20 20:57:49 INFO TextDataModel: Data size of testing is 20001
-20/01/20 20:57:49 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/20 20:57:49 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 5.
-20/01/20 20:57:49 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/20 20:57:49 INFO TextDataModel: Data size of training is 80004
-20/01/20 20:57:49 INFO TextDataModel: Data size of testing is 20000
-20/01/20 20:57:49 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/20 20:57:49 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
-20/01/20 20:57:49 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/20 20:57:49 INFO TextDataModel: Data size of training is 80003
-20/01/20 20:57:49 INFO TextDataModel: Data size of testing is 20001
-20/01/20 20:57:49 INFO BiasedMFRecommender: Job Setup completed.
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 37053.16187308985, delta_loss = -37053.16
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 33346.483334715995, delta_loss = 3706.6785
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 31926.7331249354, delta_loss = 1419.7502
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 31019.831117589965, delta_loss = 906.902
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 30333.05325788873, delta_loss = 686.77783
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 29751.210207193457, delta_loss = 581.8431
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 29209.88823570113, delta_loss = 541.32196
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 28663.959805175313, delta_loss = 545.9284
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 28078.606370482485, delta_loss = 585.35345
-20/01/20 20:57:49 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 27430.386784668626, delta_loss = 648.2196
-20/01/20 20:57:49 INFO BiasedMFRecommender: Job Train completed.
-20/01/20 20:57:50 INFO BiasedMFRecommender: Job End.
-20/01/20 20:57:50 INFO RecommenderJob: ExpCMD: COMPLETE
-20/01/20 20:57:50 INFO RecommenderJob: EvalCMD: START
-20/01/20 20:57:50 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.056567164179104595
-20/01/20 20:57:50 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.024522973880316906
-Exception in thread "main" java.lang.NullPointerException
-	at net.librec.eval.ranking.StatisticalParityEvaluator.evaluate(StatisticalParityEvaluator.java:48)
-	at net.librec.eval.AbstractRecommenderEvaluator.evaluate(AbstractRecommenderEvaluator.java:73)
-	at net.librec.recommender.AbstractRecommender.evaluate(AbstractRecommender.java:343)
-	at net.that_recsys_lab.auto.AutoRecommenderJob.executeEvaluatorAutoOverload(AutoRecommenderJob.java:206)
-	at net.that_recsys_lab.auto.cmd.EvalCmd.execute(EvalCmd.java:34)
-	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
-	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
-	at net.that_recsys_lab.auto.AutoRecommenderJob.runJob(AutoRecommenderJob.java:146)
-	at net.that_recsys_lab.auto.SingleJobRunner.main(SingleJobRunner.java:27)
+20/01/21 18:31:27 INFO TextDataConvertor: Dataset: ...01/data/ratings-movie-sample-1k.csv
+20/01/21 18:31:27 INFO TextDataConvertor: All dataset files [example01/data/ratings-movie-sample-1k.csv]
+20/01/21 18:31:27 INFO TextDataConvertor: All dataset files size 11553456
+20/01/21 18:31:27 INFO TextDataConvertor: Now loading dataset file ratings-movie-sample-1k
+20/01/21 18:31:29 INFO TextDataModel: Transform data to Convertor successfully!
+20/01/21 18:31:30 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:30 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:30 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:30 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+20/01/21 18:31:30 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+20/01/21 18:31:30 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:30 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:30 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:30 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/21 18:31:30 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
+20/01/21 18:31:31 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:31 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:31 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:31 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/21 18:31:31 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
+20/01/21 18:31:31 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:31 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:31 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:31 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/21 18:31:31 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 4.
+20/01/21 18:31:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:32 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:32 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:32 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/21 18:31:32 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 5.
+20/01/21 18:31:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:32 INFO TextDataModel: Data size of training is 800168
+20/01/21 18:31:32 INFO TextDataModel: Data size of testing is 200041
+20/01/21 18:31:32 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/21 18:31:32 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
+20/01/21 18:31:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:32 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:32 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:32 INFO BiasedMFRecommender: Job Setup completed.
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 365623.9990091, delta_loss = -365624.0
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 336688.0636979046, delta_loss = 28935.936
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 330335.1079466612, delta_loss = 6352.9556
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 326811.9004959017, delta_loss = 3523.2075
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 322519.2934855093, delta_loss = 4292.607
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 315977.2139382857, delta_loss = 6542.0796
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 308408.5037713047, delta_loss = 7568.71
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 301517.10769998335, delta_loss = 6891.396
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 295402.89759935037, delta_loss = 6114.21
+20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 289869.8112236999, delta_loss = 5533.0864
+20/01/21 18:31:33 INFO BiasedMFRecommender: Job Train completed.
+20/01/21 18:31:34 INFO BiasedMFRecommender: Job End.
+20/01/21 18:31:34 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/21 18:31:34 INFO RecommenderJob: EvalCMD: START
+20/01/21 18:31:34 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.0857687210072913
+20/01/21 18:31:34 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.028682739442724068
+20/01/21 18:31:34 INFO RecommenderJob: Result path is example01/exp00000/result/out-1.txt
+20/01/21 18:31:34 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/21 18:31:34 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 3.
+20/01/21 18:31:34 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:34 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:34 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:34 INFO BiasedMFRecommender: Job Setup completed.
+20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 365476.3190519392, delta_loss = -365476.3
+20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 336477.05049135204, delta_loss = 28999.27
+20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 330020.9096608336, delta_loss = 6456.1406
+20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 326265.95940286585, delta_loss = 3754.9502
+20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 321501.9434894526, delta_loss = 4764.016
+20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 314717.953896624, delta_loss = 6783.9897
+20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 307460.1428806621, delta_loss = 7257.811
+20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 300618.6921697366, delta_loss = 6841.4507
+20/01/21 18:31:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 294261.9167268498, delta_loss = 6356.7754
+20/01/21 18:31:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 288588.11589806475, delta_loss = 5673.801
+20/01/21 18:31:35 INFO BiasedMFRecommender: Job Train completed.
+20/01/21 18:31:35 INFO BiasedMFRecommender: Job End.
+20/01/21 18:31:35 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/21 18:31:35 INFO RecommenderJob: EvalCMD: START
+20/01/21 18:31:35 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.08279748094133378
+20/01/21 18:31:35 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.028255652587752925
+20/01/21 18:31:35 INFO RecommenderJob: Result path is example01/exp00000/result/out-2.txt
+20/01/21 18:31:35 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/21 18:31:35 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 4.
+20/01/21 18:31:36 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:36 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:36 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:36 INFO BiasedMFRecommender: Job Setup completed.
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 365617.7972617696, delta_loss = -365617.8
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 336510.31301777356, delta_loss = 29107.484
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 329945.4420866052, delta_loss = 6564.871
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 325776.2581454806, delta_loss = 4169.184
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 320197.0810757164, delta_loss = 5579.1772
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 312733.0986555434, delta_loss = 7463.9824
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 305188.00832353486, delta_loss = 7545.0903
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 298291.9396984909, delta_loss = 6896.069
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 292093.7121266564, delta_loss = 6198.2275
+20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 286666.2411713647, delta_loss = 5427.471
+20/01/21 18:31:36 INFO BiasedMFRecommender: Job Train completed.
+20/01/21 18:31:37 INFO BiasedMFRecommender: Job End.
+20/01/21 18:31:37 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/21 18:31:37 INFO RecommenderJob: EvalCMD: START
+20/01/21 18:31:37 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.08416694269625849
+20/01/21 18:31:37 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.027871642093441017
+20/01/21 18:31:37 INFO RecommenderJob: Result path is example01/exp00000/result/out-3.txt
+20/01/21 18:31:37 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/21 18:31:37 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 5.
+20/01/21 18:31:37 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:37 INFO TextDataModel: Data size of training is 800167
+20/01/21 18:31:37 INFO TextDataModel: Data size of testing is 200042
+20/01/21 18:31:37 INFO BiasedMFRecommender: Job Setup completed.
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 366174.64948165766, delta_loss = -366174.66
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 337047.98991636425, delta_loss = 29126.66
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 330544.3864838259, delta_loss = 6503.6035
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 326691.9320901521, delta_loss = 3852.4543
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 321643.65202424186, delta_loss = 5048.2803
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 314147.8949475919, delta_loss = 7495.757
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 305949.2621734445, delta_loss = 8198.633
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 298582.3666115583, delta_loss = 7366.8955
+20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 292272.5891453716, delta_loss = 6309.7773
+20/01/21 18:31:38 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 286903.44373132294, delta_loss = 5369.1455
+20/01/21 18:31:38 INFO BiasedMFRecommender: Job Train completed.
+20/01/21 18:31:38 INFO BiasedMFRecommender: Job End.
+20/01/21 18:31:38 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/21 18:31:38 INFO RecommenderJob: EvalCMD: START
+20/01/21 18:31:38 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.08782104391052373
+20/01/21 18:31:38 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.029960211879878292
+20/01/21 18:31:38 INFO RecommenderJob: Result path is example01/exp00000/result/out-4.txt
+20/01/21 18:31:38 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/21 18:31:38 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 6.
+20/01/21 18:31:39 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/21 18:31:39 INFO TextDataModel: Data size of training is 800168
+20/01/21 18:31:39 INFO TextDataModel: Data size of testing is 200041
+20/01/21 18:31:39 INFO BiasedMFRecommender: Job Setup completed.
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 365684.42315967474, delta_loss = -365684.44
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 336906.88283821073, delta_loss = 28777.541
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 330433.8221097003, delta_loss = 6473.0605
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 326568.33254901273, delta_loss = 3865.4895
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 321567.0472063709, delta_loss = 5001.285
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 314470.41381030565, delta_loss = 7096.6333
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 306911.3218806773, delta_loss = 7559.092
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 299980.85851823003, delta_loss = 6930.4634
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 293785.7361950947, delta_loss = 6195.1226
+20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 288355.54233507044, delta_loss = 5430.194
+20/01/21 18:31:39 INFO BiasedMFRecommender: Job Train completed.
+20/01/21 18:31:40 INFO BiasedMFRecommender: Job End.
+20/01/21 18:31:40 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/21 18:31:40 INFO RecommenderJob: EvalCMD: START
+20/01/21 18:31:40 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.07894649660427493
+20/01/21 18:31:40 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.02562282468079575
+20/01/21 18:31:40 INFO RecommenderJob: Result path is example01/exp00000/result/out-5.txt
+20/01/21 18:31:40 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/21 18:31:40 INFO RecommenderJob: Average Evaluation Result of Cross Validation:
+20/01/21 18:31:40 INFO RecommenderJob: Evaluator value:RecallEvaluator is 0.028078614136918412
+20/01/21 18:31:40 INFO RecommenderJob: Evaluator value:PrecisionEvaluator is 0.08390013703193645
