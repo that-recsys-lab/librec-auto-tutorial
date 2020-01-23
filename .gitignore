@@ -3,3 +3,5 @@
 example*/data/split/
 example*/exp*/
 
+*.jpg
+*.html

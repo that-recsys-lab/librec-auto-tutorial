@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- Configuration file for FAT* tutorial 
-	 Example 02: Demonstration of fairness metrics (consumer fairness)-->
+	 Example 02: Demonstration of consumer-side fairness metrics -->
 
 <librec-auto>
 	<random-seed>202001</random-seed>
@@ -54,7 +54,7 @@
 	<metric>
 		<ranking>true</ranking>
 		<list-size>10</list-size>
-		<class>net.librec.eval.ranking.DiscountedProportionalCFairnessEvaluator</class>
+		<class>net.librec.eval.rating.AbsoluteUnfairnessEvaluator,net.librec.eval.ranking.DiscountedProportionalCFairnessEvaluator</class>
 		<protected-feature>F</protected-feature>
 	</metric>
 	

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- Configuration file for FAT* tutorial 
-	 Example 04: Demonstration of re-ranking -->
+	 Example 04: Fairness-aware algorithms -->
 
 <librec-auto>
 	<random-seed>202001</random-seed>
@@ -16,15 +16,13 @@
 	<!-- DATA SECTION -->
 	<data>
 		<format>UIR</format>
-		<train-file format="text">synthetic-ratings-microloan-1k.csv</train-file>
-		<!--<test-file></test-file>-->
+		<data-file format="text">ratings-movie-sample-1k.csv</data-file>
 	</data>
 	
 	<!-- FEATURES SECTION -->
 	<features>
-		<appender-class>user-item</appender-class>
-		<item-feature-file>example04/data/item-features.csv</item-feature-file>
-		<user-feature-file>example04/data/user-features.csv</user-feature-file>
+		<appender-class>net.librec.data.convertor.appender.ItemFeatureAppender</appender-class>
+		<item-feature-file>item-features.csv</item-feature-file>
 	</features>
 	
 	<!-- SPLITTER SECTION -->
@@ -37,7 +35,7 @@
 	
 	<!-- ALGORITHM SECTION -->
 	<alg>
-		<class>biasedmf</class>
+		<class>net.librec.recommender.cf.ranking.BLNSLIMRecommender</class>
 		<learn-rate>0.01</learn-rate>
 		<learn-rate-max>0.01</learn-rate-max>
 		<learn-rate-decay>1.0</learn-rate-decay>
@@ -55,19 +53,10 @@
 	<!-- METRICS SECTION -->
 	<metric>
 		<ranking>true</ranking>
-		<list-size>50</list-size>
-		<class>precision,recall,net.librec.eval.ranking.StatisticalParityEvaluator</class>
+		<list-size>10</list-size>
+		<class>net.librec.eval.ranking.StatisticalParityEvaluator,net.librec.eval.ranking.ItemCoverageEvaluator</class>
 		<protected-feature>old</protected-feature>
 	</metric>
-	
-	<!-- RERANK SECTION -->
-	<rerank action="no-parse">
-		<script lang="python3" src="system">
-			<script-name>no-op-rerank.py</script-name>
-			<param name="max_len">5</param>
-			<param name="another_param">0.4</param>
-		</script>
-	</rerank> 
 	
 	<!-- POST-PROCESSING SECTION -->
 	<post action='no-parse'>
