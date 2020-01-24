@@ -33,12 +33,7 @@
 		<save>true</save>
 	</splitter>
 	
-	<!-- ALGORITHM SECTION -->
-	<alg src="external">
-		<script>libfm</script>
-		<param
-	</alg>
-	
+	<!-- ALGORITHM SECTION -->	
 	<alg>
 		<class>biasedmf</class>
 		<learn-rate>0.01</learn-rate>
