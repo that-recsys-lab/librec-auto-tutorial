@@ -1,152 +1,152 @@
-20/01/21 18:31:27 INFO TextDataConvertor: Dataset: ...01/data/ratings-movie-sample-1k.csv
-20/01/21 18:31:27 INFO TextDataConvertor: All dataset files [example01/data/ratings-movie-sample-1k.csv]
-20/01/21 18:31:27 INFO TextDataConvertor: All dataset files size 11553456
-20/01/21 18:31:27 INFO TextDataConvertor: Now loading dataset file ratings-movie-sample-1k
-20/01/21 18:31:29 INFO TextDataModel: Transform data to Convertor successfully!
-20/01/21 18:31:30 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:30 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:30 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:30 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
-20/01/21 18:31:30 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
-20/01/21 18:31:30 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:30 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:30 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:30 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/21 18:31:30 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
-20/01/21 18:31:31 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:31 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:31 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:31 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/21 18:31:31 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
-20/01/21 18:31:31 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:31 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:31 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:31 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/21 18:31:31 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 4.
-20/01/21 18:31:32 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:32 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:32 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:32 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/21 18:31:32 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 5.
-20/01/21 18:31:32 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:32 INFO TextDataModel: Data size of training is 800168
-20/01/21 18:31:32 INFO TextDataModel: Data size of testing is 200041
-20/01/21 18:31:32 INFO RecommenderJob: SplitCmd: COMPLETE
-20/01/21 18:31:32 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
-20/01/21 18:31:32 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:32 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:32 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:32 INFO BiasedMFRecommender: Job Setup completed.
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 365623.9990091, delta_loss = -365624.0
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 336688.0636979046, delta_loss = 28935.936
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 330335.1079466612, delta_loss = 6352.9556
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 326811.9004959017, delta_loss = 3523.2075
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 322519.2934855093, delta_loss = 4292.607
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 315977.2139382857, delta_loss = 6542.0796
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 308408.5037713047, delta_loss = 7568.71
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 301517.10769998335, delta_loss = 6891.396
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 295402.89759935037, delta_loss = 6114.21
-20/01/21 18:31:33 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 289869.8112236999, delta_loss = 5533.0864
-20/01/21 18:31:33 INFO BiasedMFRecommender: Job Train completed.
-20/01/21 18:31:34 INFO BiasedMFRecommender: Job End.
-20/01/21 18:31:34 INFO RecommenderJob: ExpCMD: COMPLETE
-20/01/21 18:31:34 INFO RecommenderJob: EvalCMD: START
-20/01/21 18:31:34 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.0857687210072913
-20/01/21 18:31:34 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.028682739442724068
-20/01/21 18:31:34 INFO RecommenderJob: Result path is example01/exp00000/result/out-1.txt
-20/01/21 18:31:34 INFO RecommenderJob: EvalCMD: COMPLETE.
-20/01/21 18:31:34 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 3.
-20/01/21 18:31:34 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:34 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:34 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:34 INFO BiasedMFRecommender: Job Setup completed.
-20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 365476.3190519392, delta_loss = -365476.3
-20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 336477.05049135204, delta_loss = 28999.27
-20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 330020.9096608336, delta_loss = 6456.1406
-20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 326265.95940286585, delta_loss = 3754.9502
-20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 321501.9434894526, delta_loss = 4764.016
-20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 314717.953896624, delta_loss = 6783.9897
-20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 307460.1428806621, delta_loss = 7257.811
-20/01/21 18:31:34 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 300618.6921697366, delta_loss = 6841.4507
-20/01/21 18:31:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 294261.9167268498, delta_loss = 6356.7754
-20/01/21 18:31:35 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 288588.11589806475, delta_loss = 5673.801
-20/01/21 18:31:35 INFO BiasedMFRecommender: Job Train completed.
-20/01/21 18:31:35 INFO BiasedMFRecommender: Job End.
-20/01/21 18:31:35 INFO RecommenderJob: ExpCMD: COMPLETE
-20/01/21 18:31:35 INFO RecommenderJob: EvalCMD: START
-20/01/21 18:31:35 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.08279748094133378
-20/01/21 18:31:35 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.028255652587752925
-20/01/21 18:31:35 INFO RecommenderJob: Result path is example01/exp00000/result/out-2.txt
-20/01/21 18:31:35 INFO RecommenderJob: EvalCMD: COMPLETE.
-20/01/21 18:31:35 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 4.
-20/01/21 18:31:36 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:36 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:36 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:36 INFO BiasedMFRecommender: Job Setup completed.
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 365617.7972617696, delta_loss = -365617.8
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 336510.31301777356, delta_loss = 29107.484
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 329945.4420866052, delta_loss = 6564.871
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 325776.2581454806, delta_loss = 4169.184
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 320197.0810757164, delta_loss = 5579.1772
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 312733.0986555434, delta_loss = 7463.9824
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 305188.00832353486, delta_loss = 7545.0903
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 298291.9396984909, delta_loss = 6896.069
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 292093.7121266564, delta_loss = 6198.2275
-20/01/21 18:31:36 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 286666.2411713647, delta_loss = 5427.471
-20/01/21 18:31:36 INFO BiasedMFRecommender: Job Train completed.
-20/01/21 18:31:37 INFO BiasedMFRecommender: Job End.
-20/01/21 18:31:37 INFO RecommenderJob: ExpCMD: COMPLETE
-20/01/21 18:31:37 INFO RecommenderJob: EvalCMD: START
-20/01/21 18:31:37 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.08416694269625849
-20/01/21 18:31:37 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.027871642093441017
-20/01/21 18:31:37 INFO RecommenderJob: Result path is example01/exp00000/result/out-3.txt
-20/01/21 18:31:37 INFO RecommenderJob: EvalCMD: COMPLETE.
-20/01/21 18:31:37 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 5.
-20/01/21 18:31:37 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:37 INFO TextDataModel: Data size of training is 800167
-20/01/21 18:31:37 INFO TextDataModel: Data size of testing is 200042
-20/01/21 18:31:37 INFO BiasedMFRecommender: Job Setup completed.
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 366174.64948165766, delta_loss = -366174.66
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 337047.98991636425, delta_loss = 29126.66
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 330544.3864838259, delta_loss = 6503.6035
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 326691.9320901521, delta_loss = 3852.4543
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 321643.65202424186, delta_loss = 5048.2803
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 314147.8949475919, delta_loss = 7495.757
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 305949.2621734445, delta_loss = 8198.633
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 298582.3666115583, delta_loss = 7366.8955
-20/01/21 18:31:37 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 292272.5891453716, delta_loss = 6309.7773
-20/01/21 18:31:38 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 286903.44373132294, delta_loss = 5369.1455
-20/01/21 18:31:38 INFO BiasedMFRecommender: Job Train completed.
-20/01/21 18:31:38 INFO BiasedMFRecommender: Job End.
-20/01/21 18:31:38 INFO RecommenderJob: ExpCMD: COMPLETE
-20/01/21 18:31:38 INFO RecommenderJob: EvalCMD: START
-20/01/21 18:31:38 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.08782104391052373
-20/01/21 18:31:38 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.029960211879878292
-20/01/21 18:31:38 INFO RecommenderJob: Result path is example01/exp00000/result/out-4.txt
-20/01/21 18:31:38 INFO RecommenderJob: EvalCMD: COMPLETE.
-20/01/21 18:31:38 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 6.
-20/01/21 18:31:39 INFO TextDataModel: Split data to train Set and test Set successfully!
-20/01/21 18:31:39 INFO TextDataModel: Data size of training is 800168
-20/01/21 18:31:39 INFO TextDataModel: Data size of testing is 200041
-20/01/21 18:31:39 INFO BiasedMFRecommender: Job Setup completed.
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 365684.42315967474, delta_loss = -365684.44
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 336906.88283821073, delta_loss = 28777.541
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 330433.8221097003, delta_loss = 6473.0605
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 326568.33254901273, delta_loss = 3865.4895
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 321567.0472063709, delta_loss = 5001.285
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 314470.41381030565, delta_loss = 7096.6333
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 306911.3218806773, delta_loss = 7559.092
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 299980.85851823003, delta_loss = 6930.4634
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 293785.7361950947, delta_loss = 6195.1226
-20/01/21 18:31:39 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 288355.54233507044, delta_loss = 5430.194
-20/01/21 18:31:39 INFO BiasedMFRecommender: Job Train completed.
-20/01/21 18:31:40 INFO BiasedMFRecommender: Job End.
-20/01/21 18:31:40 INFO RecommenderJob: ExpCMD: COMPLETE
-20/01/21 18:31:40 INFO RecommenderJob: EvalCMD: START
-20/01/21 18:31:40 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.07894649660427493
-20/01/21 18:31:40 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.02562282468079575
-20/01/21 18:31:40 INFO RecommenderJob: Result path is example01/exp00000/result/out-5.txt
-20/01/21 18:31:40 INFO RecommenderJob: EvalCMD: COMPLETE.
-20/01/21 18:31:40 INFO RecommenderJob: Average Evaluation Result of Cross Validation:
-20/01/21 18:31:40 INFO RecommenderJob: Evaluator value:RecallEvaluator is 0.028078614136918412
-20/01/21 18:31:40 INFO RecommenderJob: Evaluator value:PrecisionEvaluator is 0.08390013703193645
+20/01/23 13:13:08 INFO TextDataConvertor: Dataset: example01/data/ratings.csv
+20/01/23 13:13:08 INFO TextDataConvertor: All dataset files [example01/data/ratings.csv]
+20/01/23 13:13:08 INFO TextDataConvertor: All dataset files size 2387233
+20/01/23 13:13:08 INFO TextDataConvertor: Now loading dataset file ratings
+20/01/23 13:13:09 INFO TextDataModel: Transform data to Convertor successfully!
+20/01/23 13:13:09 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:09 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:09 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:09 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+20/01/23 13:13:09 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+20/01/23 13:13:09 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:09 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:09 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:09 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/23 13:13:09 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
+20/01/23 13:13:09 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:09 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:09 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:09 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/23 13:13:09 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
+20/01/23 13:13:09 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:09 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:09 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:09 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/23 13:13:09 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 4.
+20/01/23 13:13:10 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:10 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:10 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:10 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/23 13:13:10 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 5.
+20/01/23 13:13:10 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:10 INFO TextDataModel: Data size of training is 166036
+20/01/23 13:13:10 INFO TextDataModel: Data size of testing is 41508
+20/01/23 13:13:10 INFO RecommenderJob: SplitCmd: COMPLETE
+20/01/23 13:13:10 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
+20/01/23 13:13:10 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:10 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:10 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:10 INFO BiasedMFRecommender: Job Setup completed.
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 82483.01578154888, delta_loss = -82483.016
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 73254.03353477745, delta_loss = 9228.982
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 70932.0945521067, delta_loss = 2321.939
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 69716.0589706375, delta_loss = 1216.0355
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 68843.87536180633, delta_loss = 872.1836
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 68043.1760396594, delta_loss = 800.69934
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 67165.31236723448, delta_loss = 877.86365
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 66122.40863339236, delta_loss = 1042.9037
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 64897.78490775771, delta_loss = 1224.6238
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 63551.09298177721, delta_loss = 1346.6919
+20/01/23 13:13:10 INFO BiasedMFRecommender: Job Train completed.
+20/01/23 13:13:10 INFO BiasedMFRecommender: Job End.
+20/01/23 13:13:10 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/23 13:13:10 INFO RecommenderJob: EvalCMD: START
+20/01/23 13:13:10 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.05558210993513065
+20/01/23 13:13:10 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.047471073010603805
+20/01/23 13:13:10 INFO RecommenderJob: Result path is example01/exp00000/result/out-1.txt
+20/01/23 13:13:10 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/23 13:13:10 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 3.
+20/01/23 13:13:10 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:10 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:10 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:10 INFO BiasedMFRecommender: Job Setup completed.
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 81882.56642666784, delta_loss = -81882.57
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 72779.6706189417, delta_loss = 9102.8955
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 70534.38432843084, delta_loss = 2245.2864
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 69374.66883023817, delta_loss = 1159.7155
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 68572.7682456641, delta_loss = 801.9006
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 67881.3394846453, delta_loss = 691.4288
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 67172.55928292725, delta_loss = 708.7802
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 66359.68474084741, delta_loss = 812.8745
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 65381.78392060187, delta_loss = 977.9008
+20/01/23 13:13:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 64216.38543525791, delta_loss = 1165.3984
+20/01/23 13:13:10 INFO BiasedMFRecommender: Job Train completed.
+20/01/23 13:13:11 INFO BiasedMFRecommender: Job End.
+20/01/23 13:13:11 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/23 13:13:11 INFO RecommenderJob: EvalCMD: START
+20/01/23 13:13:11 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.047943797121315426
+20/01/23 13:13:11 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.04431462513339281
+20/01/23 13:13:11 INFO RecommenderJob: Result path is example01/exp00000/result/out-2.txt
+20/01/23 13:13:11 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/23 13:13:11 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 4.
+20/01/23 13:13:11 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:11 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:11 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:11 INFO BiasedMFRecommender: Job Setup completed.
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 82286.89644420861, delta_loss = -82286.9
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 73148.89934354182, delta_loss = 9137.997
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 70871.8780230071, delta_loss = 2277.0212
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 69698.05552257282, delta_loss = 1173.8225
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 68876.7844709132, delta_loss = 821.27106
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 68151.60049753447, delta_loss = 725.18396
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 67386.6930832328, delta_loss = 764.9074
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 66491.0554382244, delta_loss = 895.63763
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 65412.40436487511, delta_loss = 1078.6511
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 64155.58218660452, delta_loss = 1256.8221
+20/01/23 13:13:11 INFO BiasedMFRecommender: Job Train completed.
+20/01/23 13:13:11 INFO BiasedMFRecommender: Job End.
+20/01/23 13:13:11 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/23 13:13:11 INFO RecommenderJob: EvalCMD: START
+20/01/23 13:13:11 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.057181849198225075
+20/01/23 13:13:11 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.05295448062016298
+20/01/23 13:13:11 INFO RecommenderJob: Result path is example01/exp00000/result/out-3.txt
+20/01/23 13:13:11 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/23 13:13:11 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 5.
+20/01/23 13:13:11 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:11 INFO TextDataModel: Data size of training is 166035
+20/01/23 13:13:11 INFO TextDataModel: Data size of testing is 41509
+20/01/23 13:13:11 INFO BiasedMFRecommender: Job Setup completed.
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 82416.0516216253, delta_loss = -82416.055
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 73283.88139048347, delta_loss = 9132.17
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 71013.44881796587, delta_loss = 2270.4326
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 69841.5112326012, delta_loss = 1171.9376
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 69026.32012202348, delta_loss = 815.1911
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 68313.72303060548, delta_loss = 712.5971
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 67569.33821489062, delta_loss = 744.3848
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 66702.3745619911, delta_loss = 866.9636
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 65658.56300278583, delta_loss = 1043.8115
+20/01/23 13:13:11 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 64438.72489971552, delta_loss = 1219.8381
+20/01/23 13:13:11 INFO BiasedMFRecommender: Job Train completed.
+20/01/23 13:13:11 INFO BiasedMFRecommender: Job End.
+20/01/23 13:13:11 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/23 13:13:11 INFO RecommenderJob: EvalCMD: START
+20/01/23 13:13:11 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.05266211604095493
+20/01/23 13:13:11 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.04908673514132398
+20/01/23 13:13:11 INFO RecommenderJob: Result path is example01/exp00000/result/out-4.txt
+20/01/23 13:13:11 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/23 13:13:11 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 6.
+20/01/23 13:13:11 INFO TextDataModel: Split data to train Set and test Set successfully!
+20/01/23 13:13:12 INFO TextDataModel: Data size of training is 166036
+20/01/23 13:13:12 INFO TextDataModel: Data size of testing is 41508
+20/01/23 13:13:12 INFO BiasedMFRecommender: Job Setup completed.
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 82294.14664840509, delta_loss = -82294.15
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 73174.16765523392, delta_loss = 9119.979
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 70898.76385449295, delta_loss = 2275.4038
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 69706.28123784554, delta_loss = 1192.4827
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 68856.33970257033, delta_loss = 849.9415
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 68090.8517781245, delta_loss = 765.4879
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 67269.79905148517, delta_loss = 821.05273
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 66299.03711409881, delta_loss = 970.76196
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 65129.43918425194, delta_loss = 1169.5979
+20/01/23 13:13:12 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 63779.15307085574, delta_loss = 1350.2861
+20/01/23 13:13:12 INFO BiasedMFRecommender: Job Train completed.
+20/01/23 13:13:12 INFO BiasedMFRecommender: Job End.
+20/01/23 13:13:12 INFO RecommenderJob: ExpCMD: COMPLETE
+20/01/23 13:13:12 INFO RecommenderJob: EvalCMD: START
+20/01/23 13:13:12 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.049420980926429964
+20/01/23 13:13:12 INFO RecommenderJob: Evaluator info:RecallEvaluator is 0.044529606714255945
+20/01/23 13:13:12 INFO RecommenderJob: Result path is example01/exp00000/result/out-5.txt
+20/01/23 13:13:12 INFO RecommenderJob: EvalCMD: COMPLETE.
+20/01/23 13:13:12 INFO RecommenderJob: Average Evaluation Result of Cross Validation:
+20/01/23 13:13:12 INFO RecommenderJob: Evaluator value:RecallEvaluator is 0.0476713041239479
+20/01/23 13:13:12 INFO RecommenderJob: Evaluator value:PrecisionEvaluator is 0.05255817064441122

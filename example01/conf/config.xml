@@ -15,8 +15,8 @@
 	
 	<!-- DATA SECTION -->
 	<data>
-		<format>UIRT</format>
-		<data-file format="text">ratings-movie-sample-1k.csv</data-file>
+		<format>UIR</format>
+		<data-file format="text">ratings.csv</data-file>
 	</data>
 	
 	<!-- SPLITTER SECTION -->

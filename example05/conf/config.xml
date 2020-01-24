@@ -64,7 +64,7 @@
 	<rerank action="no-parse">
 		<script lang="python3" src="system">
 			<script-name>no-op-rerank.py</script-name>
-			<param name="max_len">5</param>
+			<param name="max_len">10</param>
 			<param name="another_param">0.4</param>
 		</script>
 	</rerank> 
