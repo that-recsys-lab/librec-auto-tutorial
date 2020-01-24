@@ -2,13 +2,15 @@
 <!-- Configuration file for FAT* tutorial 
 	 Example 04: Demonstration of re-ranking -->
 
+<include "alg-dict.xml"/>
+
 <librec-auto>
 	<random-seed>202001</random-seed>
 	<thread-count>1</thread-count>
 	
 	<!-- PATH SECTION -->
 	<path>
-		<data>example04/data</data>
+		<data>example05/data</data>
 		<result>result</result>
 		<log>log</log>
 	</path>
@@ -16,15 +18,14 @@
 	<!-- DATA SECTION -->
 	<data>
 		<format>UIR</format>
-		<train-file format="text">synthetic-ratings-microloan-1k.csv</train-file>
+		<train-file format="text">ratings.csv</train-file>
 		<!--<test-file></test-file>-->
 	</data>
 	
 	<!-- FEATURES SECTION -->
 	<features>
-		<appender-class>user-item</appender-class>
-		<item-feature-file>example04/data/item-features.csv</item-feature-file>
-		<user-feature-file>example04/data/user-features.csv</user-feature-file>
+		<appender-class>net.librec.data.convertor.appender.ItemFeatureAppender</appender-class>
+		<item-feature-file>eitem-features.csv</item-feature-file>
 	</features>
 	
 	<!-- SPLITTER SECTION -->

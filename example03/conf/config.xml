@@ -34,6 +34,11 @@
 	</splitter>
 	
 	<!-- ALGORITHM SECTION -->
+	<alg src="external">
+		<script>libfm</script>
+		<param
+	</alg>
+	
 	<alg>
 		<class>biasedmf</class>
 		<learn-rate>0.01</learn-rate>
@@ -55,7 +60,7 @@
 		<ranking>true</ranking>
 		<list-size>10</list-size>
 		<class>net.librec.eval.ranking.StatisticalParityEvaluator,net.librec.eval.ranking.ItemCoverageEvaluator</class>
-		<protected-feature>old</protected-feature>
+		<protected-feature>new</protected-feature>
 	</metric>
 	
 	<!-- POST-PROCESSING SECTION -->

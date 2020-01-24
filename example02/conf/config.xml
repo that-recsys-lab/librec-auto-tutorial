@@ -54,7 +54,7 @@
 	<metric>
 		<ranking>true</ranking>
 		<list-size>10</list-size>
-		<class>net.librec.eval.rating.AbsoluteUnfairnessEvaluator,net.librec.eval.ranking.DiscountedProportionalCFairnessEvaluator</class>
+		<class>ndcg,net.librec.eval.rating.AbsoluteUnfairnessEvaluator,net.librec.eval.ranking.DiscountedProportionalCFairnessEvaluator</class>
 		<protected-feature>F</protected-feature>
 	</metric>
 	

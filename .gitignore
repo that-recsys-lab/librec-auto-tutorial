@@ -2,7 +2,9 @@
 .DS_Store
 example*/data/split/
 example*/exp*/
+*.status
 
+*.log
 *.jpg
 *.html
 *.jpg
