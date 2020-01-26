@@ -54,7 +54,7 @@
 	<metric>
 		<ranking>true</ranking>
 		<list-size>10</list-size>
-		<class>net.librec.eval.ranking.StatisticalParityEvaluator,net.librec.eval.ranking.DiscountedProportionalPFairnessEvaluator</class>
+		<class>net.librec.eval.ranking.StatisticalParityEvaluator,net.librec.eval.ranking.DiscountedProportionalPFairnessEvaluator,,precision,recall</class>
 		<protected-feature>new</protected-feature>
 	</metric>
 	

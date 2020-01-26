@@ -37,7 +37,7 @@
 		<iterator-max>10</iterator-max>
 		<user-reg>0.01</user-reg>
 		<item-reg>0.01</item-reg>
-		<implicit-reg></implicit-reg>
+		<implicit-reg>0.001</implicit-reg>
 		<num-factors>
 			<value>10</value>
 			<value>20</value>

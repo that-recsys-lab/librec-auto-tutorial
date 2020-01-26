@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <!-- Configuration file for FAT* tutorial 
-	 Example 04: Demonstration of re-ranking -->
+	 Example 05: Demonstration of re-ranking -->
 
-<include "alg-dict.xml"/>
 
 <librec-auto>
 	<random-seed>202001</random-seed>
@@ -25,7 +24,7 @@
 	<!-- FEATURES SECTION -->
 	<features>
 		<appender-class>net.librec.data.convertor.appender.ItemFeatureAppender</appender-class>
-		<item-feature-file>eitem-features.csv</item-feature-file>
+		<item-feature-file>item-features.csv</item-feature-file>
 	</features>
 	
 	<!-- SPLITTER SECTION -->
@@ -57,24 +56,26 @@
 	<metric>
 		<ranking>true</ranking>
 		<list-size>50</list-size>
-		<class>precision,recall,net.librec.eval.ranking.StatisticalParityEvaluator</class>
-		<protected-feature>old</protected-feature>
+		<class>net.librec.eval.ranking.StatisticalParityEvaluator,net.librec.eval.ranking.DiscountedProportionalPFairnessEvaluator,precision,recall</class>
+		<protected-feature>new</protected-feature>
 	</metric>
 	
 	<!-- RERANK SECTION -->
 	<rerank action="no-parse">
 		<script lang="python3" src="system">
-			<script-name>no-op-rerank.py</script-name>
+			<script-name>far-rerank.py</script-name>
 			<param name="max_len">10</param>
-			<param name="another_param">0.4</param>
+			<param name="lambda">0.4</param>
+			<param name="binary">False</param>
 		</script>
 	</rerank> 
 	
-	<!-- POST-PROCESSING SECTION -->
+	
+	<!-- POST-PROCESSING SECTION 
 	<post action='no-parse'>
 		<script lang="python3" src="system">
 			<script-name>result-graphics.py</script-name>
 			<param name="browser">True</param>
 		</script>
-	</post> 
+	</post> -->
 </librec-auto>
