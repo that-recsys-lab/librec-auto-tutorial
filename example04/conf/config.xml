@@ -33,22 +33,6 @@
 		<save>true</save>
 	</splitter>
 	
-	<!-- ALGORITHM SECTION 
-	<alg>
-		<class>biasedmf</class>
-		<learn-rate>0.01</learn-rate>
-		<learn-rate-max>0.01</learn-rate-max>
-		<learn-rate-decay>1.0</learn-rate-decay>
-		<bold-driver>false</bold-driver>
-		<iterator-max>10</iterator-max>
-		<user-reg>0.01</user-reg>
-		<item-reg>0.01</item-reg>
-		<bias-reg>0.01</bias-reg>
-		<num-factors>
-			<value>10</value>
-			<value>20</value>
-		</num-factors>
-	</alg> -->
 	<!-- ALGORITHM SECTION  -->
 	<alg>
 		<class>net.librec.recommender.cf.ranking.BLNSLIMFastRecommender</class>
@@ -57,10 +41,10 @@
 		<neighborhood-size>50</neighborhood-size>
 		<shrinkage>10</shrinkage>
 		<bold-driver>false</bold-driver>
-		<iterator-max>5</iterator-max>
-		<l1-reg>1</l1-reg>
-		<l2-reg>5</l2-reg>
-		<l3-reg>0.1</l3-reg>
+		<iterator-max>10</iterator-max>
+		<l1-reg>0.01</l1-reg>
+		<l2-reg>0.05</l2-reg>
+		<l3-reg>1</l3-reg>
 		<min-sim>0.0</min-sim>
 	</alg>
 
@@ -68,9 +52,8 @@
 	<metric>
 		<ranking>true</ranking>
 		<list-size>10</list-size>
-		<class>net.librec.eval.ranking.ItemCoverageEvaluator</class>
-		<!-- ><class>net.librec.eval.ranking.DiscountedProportionalPFairnessEvaluator</class> -->
-		<protected-feature>old</protected-feature>
+		<class>precision,net.librec.eval.ranking.StatisticalParityEvaluator,net.librec.eval.ranking.DiscountedProportionalPFairnessEvaluator</class>
+		<protected-feature>new</protected-feature>
 	</metric>
 	
 	<!-- POST-PROCESSING SECTION -->

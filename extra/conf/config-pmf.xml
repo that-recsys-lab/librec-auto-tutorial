@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- Configuration file for FAT* tutorial 
-	 Example 03: Demonstration of provider-side fairness metrics -->
+	 Extra: Probabilistic matrix factorization -->
 
 <librec-auto>
 	<random-seed>202001</random-seed>
@@ -8,7 +8,7 @@
 	
 	<!-- PATH SECTION -->
 	<path>
-		<data>example03/data</data>
+		<data>example01/data</data>
 		<result>result</result>
 		<log>log</log>
 	</path>
@@ -19,12 +19,6 @@
 		<data-file format="text">ratings.csv</data-file>
 	</data>
 	
-	<!-- FEATURES SECTION -->
-	<features>
-		<appender-class>net.librec.data.convertor.appender.ItemFeatureAppender</appender-class>
-		<item-feature-file>item-features.csv</item-feature-file>
-	</features>
-	
 	<!-- SPLITTER SECTION -->
 	<splitter>
 		<model count="5">kcv</model>
@@ -33,20 +27,20 @@
 		<save>true</save>
 	</splitter>
 	
-	<!-- ALGORITHM SECTION -->	
+	<!-- ALGORITHM SECTION -->
 	<alg>
-		<class>biasedmf</class>
+		<class>pmf</class>
 		<learn-rate>0.01</learn-rate>
 		<learn-rate-max>0.01</learn-rate-max>
 		<learn-rate-decay>1.0</learn-rate-decay>
 		<bold-driver>false</bold-driver>
-		<iterator-max>10</iterator-max>
-		<user-reg>0.01</user-reg>
-		<item-reg>0.01</item-reg>
+		<iterator-max>30</iterator-max>
+		<user-reg>0.08</user-reg>
+		<item-reg>0.08</item-reg>
 		<bias-reg>0.01</bias-reg>
 		<num-factors>
-			<value>10</value>
-			<value>20</value>
+			<value>6</value>
+			<value>15</value>
 		</num-factors>
 	</alg> 
 
@@ -54,8 +48,7 @@
 	<metric>
 		<ranking>true</ranking>
 		<list-size>10</list-size>
-		<class>net.librec.eval.ranking.StatisticalParityEvaluator,net.librec.eval.ranking.DiscountedProportionalPFairnessEvaluator</class>
-		<protected-feature>new</protected-feature>
+		<class>precision,recall</class>
 	</metric>
 	
 	<!-- POST-PROCESSING SECTION -->
